@@ -1,0 +1,160 @@
+body {
+    background-color: #0AA1DD;
+}
+
+header {
+    position: sticky;
+    background-color: #2155CD;
+    display: flex;
+    height: 70px;
+    top: 0;
+}
+
+header .logo {
+    margin-left: 5%;
+}
+
+header .logo #judul-web {
+    margin-top: 0px;
+    line-height: 70px;
+}
+
+header .logo a {
+    color: white;
+}
+
+.navbar-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-container ul {
+    margin-top: 0px;
+    line-height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-container ul li {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.navbar-container ul li a{
+    margin-top: 0px;
+    line-height: 70px;
+    color: white;
+}
+
+.login-signup-container {
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+.login-signup-container ul {
+    margin-top: 0px;
+    padding-top: 0px;
+    line-height: 70px;
+    margin-left: auto;
+}
+
+.login-signup-container ul li {
+    display: inline;
+}
+
+.login-signup-container .signup {
+    margin-right: 10px;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: white;
+}
+
+.login-signup-container .signup a {
+    color: black;
+}
+
+.login-signup-container .login a {
+    color: white;
+}
+
+.main {
+    height: 1000px;
+    /* background-color: aquamarine; */
+}
+
+.content-container {
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;   
+    /* background-color: azure; */
+}
+
+.content-container.ganjil .content{
+    padding-top: 40px;
+    background-color: #79DAE8;
+    border-radius: 20px;
+}
+
+.content-container.genap .content{
+    background-color: #E8F9FD;
+    border-radius: 20px;
+}
+
+.content {
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .content-sub {
+    /* background-color: aqua; */
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content .content-sub .content-sub-desc {
+    text-align: justify;
+}
+
+.content-container .btnDetail {
+    float: right;
+    margin-right: 25px;
+}
+
+.content-container .btnRegist {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: greenyellow;
+    height: 70px;
+    width: 250px;
+    line-height: 70px;
+    border-radius: 50px;
+}
+
+.pic-225px {
+    width: 225px;
+    height: 225px;
+}
+
+.list-type-none {
+    list-style-type: none;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.fixed-position {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.fixed-position + .main{
+    padding-top: 70px;
+}
